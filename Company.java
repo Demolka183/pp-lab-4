@@ -4,7 +4,6 @@ public class Company {
     public void run() {
         Employee[] employees = new Employee[7];
 
-        // Dodawanie pracowników jako Manager i Worker
         employees[0] = new Manager("Wiktor Daniel", 5000);
         employees[1] = new Worker("Jan Kowalski", 3500, "Programista");
         employees[2] = new Worker("Piotr Nowak", 4000, "Projektant");
